@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #333;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+nav a:focus,
+nav a:hover {
+    background: #555;
+    outline: 2px solid yellow;
+    /* Visible focus */
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:focus,
+.btn:hover {
+    background: #005fa3;
+    outline: 3px solid orange;
+    /* Strong visible focus */
+}
