@@ -1,4 +1,4 @@
-# accessibility-patterns-overview
+# W2-css-accessibility-patterns-overview
 
 ### Installation
 
